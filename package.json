@@ -2,10 +2,10 @@
   "name": "taptap-backend",
   "version": "2.0.0",
   "description": "TapTap backend – Socket.io + WebRTC signaling + Auth + Follows + DMs + Premium",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "engines": {
     "node": ">=18.0.0"
